@@ -106,7 +106,7 @@ g_filter = np.array([[1.0, 2.0, 1.0], [2.0, 4.0, 2.0], [1.0, 2.0, 1.0]]) / 16
 g_img = correlate(img, g_filter)
 ```
 
-![Output](results/gussian_image.png)
+![Output](results/gaussian_image.png)
 
 ```
 m_img = median_filter5x5(img)
