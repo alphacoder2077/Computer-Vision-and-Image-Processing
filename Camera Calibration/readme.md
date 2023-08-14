@@ -54,21 +54,6 @@ This task is centered around detecting corners in an image of a chessboard patte
     - **Output**: Rotation matrix (`R`) and translation matrix (`T`) representing the extrinsic camera parameters.
 
 ---
-
-## Usage
-
-Ensure that all necessary libraries such as `numpy` and `opencv` are installed.
-
-Run the corresponding tasks using:
-
-```bash
-python task1.py
-```
-
-or 
-
-```bash
-python task2.py
 ```
 
 Provide appropriate inputs as required.
