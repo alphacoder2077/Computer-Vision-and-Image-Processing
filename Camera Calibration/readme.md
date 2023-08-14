@@ -52,10 +52,3 @@ This task is centered around detecting corners in an image of a chessboard patte
 4. `find_extrinsic(img_coord, world_coord) -> Tuple[np.ndarray, np.ndarray]`:
     - **Input**: Image coordinates (`img_coord`) of the 32 corners and world coordinates (`world_coord`) of the 32 corners.
     - **Output**: Rotation matrix (`R`) and translation matrix (`T`) representing the extrinsic camera parameters.
-
----
-```
-
-Provide appropriate inputs as required.
-
----
